@@ -27,3 +27,5 @@ for (let i = 0; i < result.children.length; i++) {
 if (hasH2) {
     field.classList.add("has-child");
 }
+
+// did it work ?
