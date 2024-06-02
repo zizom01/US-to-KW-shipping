@@ -18,7 +18,12 @@ h1 {
     height: 45%;
 }
 body {
-    background-color: white;
+    background: linear-gradient(to bottom, black 15%, gray 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; 
 }
 .content {
     border: unset;
