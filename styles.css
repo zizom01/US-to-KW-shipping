@@ -18,11 +18,11 @@ h1 {
     height: 45%;
 }
 body {
-    background: linear-gradient(to bottom, black 15%, gray 100%);
+    background: rgb(52, 53, 52);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the content vertically */
+    justify-content: top; /* Center the content vertically */
     align-items: center; 
 }
 .content {
@@ -30,12 +30,12 @@ body {
 }
 fieldset {
     width: 30%;
-    margin: auto;
+    margin: 1em 1em;
     border: unset;
 }
 .has-child {
     border: 5px solid black;
-    background-color: red;
+    background-color: gray;
 }
 input {
     margin: 0 auto;
@@ -48,8 +48,8 @@ div {
     text-align: center;
 }
 button {
-    display: block;
-    margin: 1em auto;
+    display: inline;
+    margin: 1em 0.5em;
     width: 7em;
     height: 2em;
     background-color: black;
@@ -57,11 +57,15 @@ button {
     font-size: large;
     border: 2px solid gray;
 }
+button[id="remove"] {
+    width: fit-content;
+    display: inline-block;
+}
 button:active {
     background-color: red;
 }
 h2 {
-    border: 3px solid black;
+    border: 3px solid rgb(210, 210, 207);
     margin: 10px auto;
-    background-color: gray;
+    background-color: black;
 }

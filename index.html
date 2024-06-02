@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Add price of shipping from us to kw</h1>
+    <header>
+        <h1>Add price of shipping from us to kw</h1>
+    </header>
+    
     <div>
-    <input id="price" placeholder="Game Price" type="number">
-    <button type="button" onclick="addtoprice()">Calculate</button>
+    <input id="price" placeholder="Item Price" type="number">
+    <br>
+    <button type="button" onclick="addtoprice(), haveh2()">Calculate</button><button onclick="removeh2()" id="remove">Remove Entries</button>
 </div>
     <fieldset id="field">
         <div id="list" class="content"></div>
